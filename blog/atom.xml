@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vitorfleonardo.github.io/UnB-Software-Engineering-Course/blog</id>
-    <title>My Site Blog</title>
+    <title>Software Engineering Course Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vitorfleonardo.github.io/UnB-Software-Engineering-Course/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Software Engineering Course Blog</subtitle>
     <icon>https://vitorfleonardo.github.io/UnB-Software-Engineering-Course/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
