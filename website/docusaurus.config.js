@@ -4,25 +4,20 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Software Engineering Course',
+  tagline:
+    'Overview of the Software Engineering Course at the University of Brasília',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://github.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://vitorfleonardo.github.io',
   baseUrl: '/UnB-Software-Engineering-Course/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'vitorfleonardo', // Usually your GitHub org/user name.
-  projectName: 'UnB-Software-Engineering-Course', // Usually your repo name.
-  deploymentBranch: "gh-pages",
+  organizationName: 'vitorfleonardo',
+  projectName: 'UnB-Software-Engineering-Course',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -67,21 +62,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Home',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'UnB Logo',
+          src: 'img/logo.jpg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Overview',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /*{ to: '/blog', label: 'Blog', position: 'left' },*/
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/vitorfleonardo/UnB-Software-Engineering-Course',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,10 +86,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Content',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Overview',
                 to: '/docs/intro',
               },
             ],
@@ -130,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Software Engineering Course Overview. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
