@@ -4,8 +4,6 @@ sidebar_position: 10
 
 # Data Structure 1
 
-    > this course
-
 ## Topics
 
 import TopicsList from '@site/src/components/TopicsList.js';
@@ -34,6 +32,8 @@ import TopicsList from '@site/src/components/TopicsList.js';
 "Binary search",
 "Binary Search Trees",
 ]} />
+
+## Personal Experience
 
 ## Bibliographic References
 
